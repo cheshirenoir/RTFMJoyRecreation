@@ -229,7 +229,7 @@ NoConn ~ 1500 2400
 Wire Wire Line
 	4650 2850 4650 2950
 Wire Wire Line
-	4650 2950 4650 4300
+	4650 2950 4650 4100
 Connection ~ 4650 2950
 Wire Wire Line
 	7150 2850 7150 2950
@@ -378,10 +378,6 @@ NoConn ~ 9400 5550
 NoConn ~ 9400 5400
 NoConn ~ 9400 5200
 NoConn ~ 9400 5050
-Wire Wire Line
-	9400 4100 7150 4100
-Wire Wire Line
-	7150 2950 7150 4100
 Wire Wire Line
 	7750 5000 9300 5000
 Wire Wire Line
@@ -578,8 +574,6 @@ Wire Wire Line
 	1850 3500 3350 3500
 Text Notes 1800 4850 0    50   ~ 0
 OPTIONAL: Use resistor network or individual resistors.
-Wire Wire Line
-	4650 4300 9400 4300
 Text Notes 5250 6450 0    50   ~ 0
 OPTIONAL: Use resistor network or individual resistors.
 Wire Wire Line
@@ -813,4 +807,10 @@ Wire Wire Line
 Connection ~ 6850 950 
 Wire Wire Line
 	6850 950  7300 950 
+Wire Wire Line
+	9400 4300 7150 4300
+Wire Wire Line
+	7150 2950 7150 4300
+Wire Wire Line
+	9400 4100 4650 4100
 $EndSCHEMATC
